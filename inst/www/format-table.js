@@ -13,17 +13,17 @@ escape_string = function(text) {
 }
 var cols = [
   {id: "lineno", name: "#", field: "lineno", width: 20, cssClass: "lineno"},
-  {id: "src", name: "Source code", field: "src", width: 420, cssClass: "code"},
-  {id: "time", name: "t", field: "time", width: 60, toolTip: "Time (s)"},
+  {id: "src", name: "Source code", field: "src", width: 840, cssClass: "code"},
+  {id: "time", name: "t", field: "time", width: 180, toolTip: "Time (s)"},
   {
-    id: "release", name: "r", field: "release", width: 30, cssClass: "negative",
+    id: "release", name: "r", field: "release", width: 60, cssClass: "negative",
     toolTip: "Memory released (MB)"
   },
   {
-    id: "alloc", name: "a", field: "alloc", width: 30, 
+    id: "alloc", name: "a", field: "alloc", width: 60, 
     toolTip: "Memory allocated (MB)"
   },
-  {id: "dups", name: "d", field: "dups", width: 30, toolTip: "Duplications"}
+  {id: "dups", name: "d", field: "dups", width: 60, toolTip: "Duplications"}
 ];
 
 var slickGridOpts = {
