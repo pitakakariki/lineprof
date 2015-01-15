@@ -1,4 +1,4 @@
-slickgridOutput <- function(outputId, width = 1080, height = 1000) {
+slickgridOutput <- function(outputId, width = 1200, height = 1000) {
   shiny::addResourcePath(
     prefix = "slickgrid",
     directoryPath = system.file("slickgrid", package="lineprof")
