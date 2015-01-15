@@ -13,7 +13,7 @@ escape_string = function(text) {
 }
 var cols = [
   {id: "lineno", name: "#", field: "lineno", width: 20, cssClass: "lineno"},
-  {id: "src", name: "Source code", field: "src", width: 500, cssClass: "code"},
+  {id: "src", name: "Source code", field: "src", width: 700, cssClass: "code"},
   {id: "time", name: "t", field: "time", width: 180, toolTip: "Time (s)"},
   {
     id: "release", name: "r", field: "release", width: 60, cssClass: "negative",
